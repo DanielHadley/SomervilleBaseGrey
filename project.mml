@@ -1,0 +1,250 @@
+{
+  "bounds": [
+    -71.1612,
+    42.3474,
+    -71.0412,
+    42.4376
+  ],
+  "center": [
+    -71.1005,
+    42.3847,
+    13
+  ],
+  "format": "png",
+  "interactivity": {
+    "fields": []
+  },
+  "minzoom": 13,
+  "maxzoom": 17,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "roads",
+    "labels",
+    "highway"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "extent": [
+        -71.13480256603155,
+        42.3733000685365,
+        -71.07363186211813,
+        42.41766673347326
+      ],
+      "id": "roads",
+      "class": "roads",
+      "Datasource": {
+        "file": "g:\\SomerStatShare\\2013_TileMillBase\\ShapeFiles\\Roads_EOT_2009.shp",
+        "id": "roads",
+        "project": "Somerville",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -71.13436182779645,
+        42.37345064891472,
+        -71.07303871489336,
+        42.417306227174905
+      ],
+      "id": "bldgpoly",
+      "class": "",
+      "Datasource": {
+        "file": "g:\\SomerStatShare\\2013_TileMillBase\\ShapeFiles\\bldg_poly.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "bldgpoly",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -71.16070155554615,
+        42.34640408697474,
+        -71.03994390950027,
+        42.437418470447746
+      ],
+      "id": "highway-outline",
+      "class": "highway line",
+      "Datasource": {
+        "file": "g:\\SomerStatShare\\2013_TileMillBase\\ShapeFilesFinal\\highway.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "highway-outline"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -71.16070155554615,
+        42.34640408697474,
+        -71.03994390950027,
+        42.437418470447746
+      ],
+      "id": "highway",
+      "class": "highway fill",
+      "Datasource": {
+        "file": "layers\\highway.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "highway"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -71.16102545264249,
+        42.346573968218344,
+        -71.03930473598545,
+        42.43731385529518
+      ],
+      "id": "water",
+      "class": "",
+      "Datasource": {
+        "file": "layers\\Water.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "water"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -71.16070155554613,
+        42.34640408697469,
+        -71.03994390950025,
+        42.43741847044775
+      ],
+      "id": "somervilleoutline",
+      "class": "",
+      "Datasource": {
+        "file": "layers\\SomervilleOutline.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "somervilleoutline"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -71.13453970174007,
+        42.37318492225791,
+        -71.07278599371821,
+        42.41796052302546
+      ],
+      "id": "highway-label",
+      "class": "highway-label",
+      "Datasource": {
+        "file": "layers\\som_highways.shp",
+        "id": "highway-label",
+        "project": "SomervilleBaseGrey",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "highway-label"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -71.16017799999997,
+        42.34805979999997,
+        -71.04670830000003,
+        42.43620739999997
+      ],
+      "id": "location",
+      "class": "location",
+      "Datasource": {
+        "file": "layers\\location.shp",
+        "id": "location",
+        "project": "SomervilleBaseGrey",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "location"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -71.13431532993793,
+        42.37457192025599,
+        -71.07511903813736,
+        42.41784526024837
+      ],
+      "id": "somervilleparks",
+      "class": "",
+      "Datasource": {
+        "file": "layers\\somerville_parks.shp",
+        "id": "somervilleparks",
+        "project": "SomervilleBaseGrey",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "somervilleparks",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -71.1343128658463,
+        42.37241507588304,
+        -71.0731301643813,
+        42.41839023683384
+      ],
+      "id": "somervilleboundry",
+      "class": "",
+      "Datasource": {
+        "file": "layers\\SomervilleBoundry.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "somervilleboundry"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -71.13474220120969,
+        42.372750857029125,
+        -71.07229844173675,
+        42.41791501839163
+      ],
+      "id": "neighborhoods",
+      "class": "",
+      "Datasource": {
+        "file": "layers\\neighborhoods.shp",
+        "id": "neighborhoods",
+        "project": "SomervilleBaseGrey",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "neighborhoods"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Somerville Base Map Grey",
+  "description": "",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>Your Legend Here</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#8bbc22;'></span>Dan</li>\n    <li><span style='background:#1aadce;'></span>Hadley</li>\n    <li><span style='background:#900000;'></span>Base</li>\n  </ul>\n</div>\n<div class='legend-source'>Source: <a href=\"#link to source\">311</a></div>\n</div>\n\n<style type='text/css'>\n  .wax-legend .legend-title {\n    text-align: left;\n    margin-bottom: 8px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .wax-legend .legend-scale ul {\n    margin: 0;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .wax-legend .legend-scale ul li {\n    display: block;\n    float: left;\n    width: 50px;\n    margin-bottom: 6px;\n    text-align: center;\n    font-size: 80%;\n    list-style: none;\n    }\n  .wax-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 15px;\n    width: 50px;\n    }\n  .wax-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .wax-legend a {\n    color: #777;\n    }\n</style>",
+  "attribution": ""
+}

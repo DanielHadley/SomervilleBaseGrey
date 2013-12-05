@@ -1,0 +1,31 @@
+
+#roads [CLASS=1] {
+  line-width:2;
+  line-color:#69B;
+}
+
+#roads [CLASS=2] {
+  line-width:1;
+  line-color:#69B;
+}
+
+#roads [CLASS=3] {
+  line-width:1;
+  line-color:#69B;
+}
+
+#roads [CLASS=4] {
+  line-width:2;
+  line-color:@primary;
+}
+
+#roads [CLASS=5] {
+  line-width:.5;
+  line-color:#69B;
+}
+
+#roads [CLASS=5] {
+  line-width:.5;
+  line-color:#69B;
+}
+
